@@ -8,7 +8,7 @@ jobs:
 
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest # Workflow Jobs Runs on Github Server(ubuntu-latest) building and pushing the Docker Image
 
     steps:
     - uses: actions/checkout@v3

@@ -10,7 +10,7 @@ jobs:
 
   build:
 
-    runs-on: self-hosted
+    runs-on: self-hosted # Workflow Jobs Runs on AWS EC2 Server，not Github Hosted Server(That's why self-hosted), pulling Docker Image and running the Docker Container
 
     steps:
     - name: Pull Docker image
